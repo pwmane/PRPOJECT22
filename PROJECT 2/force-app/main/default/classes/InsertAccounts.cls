@@ -1,0 +1,10 @@
+public class InsertAccounts {
+    public static void insertAccounts() {
+        List<Account> acclist = new List<Account>();
+        for (Integer i=0;i<100;i++) {
+            acclist.add(new Account(Name='Test Account ' + i));
+        }
+        insert acclist;
+        //First Commit 
+    }
+}
